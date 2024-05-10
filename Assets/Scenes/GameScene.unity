@@ -781,7 +781,7 @@ Transform:
   m_GameObject: {fileID: 832575517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -795,6 +795,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2270210707895789424, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 408870783259742523, guid: a486204dc0fdef944828c560121d7309,
+        type: 3}
+    - target: {fileID: 2270210707895789424, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: d745833af2d9a634e9fae5b096f1697d,
+        type: 2}
     - target: {fileID: 7683017763260625583, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -855,6 +867,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96182da73a7c8e94eb8e7a615db0ff5f, type: 3}
+--- !u!114 &1739490015 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270210707895789424, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 876887068}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6cb12a7f7ef664bb741fa1fb493396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1998136130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,6 +1026,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2270210707895789424, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
+        type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270210707895789424, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d00416088727e848a3615f91aee35b3,
+        type: 2}
+    - target: {fileID: 2270210707895789424, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1739490015}
     - target: {fileID: 7683017763260625583, guid: 96182da73a7c8e94eb8e7a615db0ff5f,
         type: 3}
       propertyPath: m_LocalPosition.x
